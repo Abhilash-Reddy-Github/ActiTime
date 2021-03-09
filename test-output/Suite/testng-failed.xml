@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="vandivTest(failed)">
+    <classes>
+      <class name="com.actitime.TimeTrack.validlogintest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="loginTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.actitime.TimeTrack.validlogintest -->
+      <class name="com.actitime.TimeTrack.invalidlogin">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- com.actitime.TimeTrack.invalidlogin -->
+    </classes>
+  </test> <!-- vandivTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

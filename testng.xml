@@ -1,0 +1,9 @@
+<suite name="Suite">
+  <test thread-count="5" name="vandivTest">
+    <classes>
+      <class name="com.actitime.TimeTrack.validlogintest"/>
+        <class name="com.actitime.TimeTrack.invalidlogin"/>
+  
+    </classes>
+  </test> 
+</suite> 
